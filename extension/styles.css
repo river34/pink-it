@@ -1,0 +1,43 @@
+:root {
+    --main-bg-color: #edbbd8;
+    --main-body-color: #531d37;
+    --main-link-color: #ff0096;
+    --footer-bg-color: #531d37;
+}
+
+/* body */
+.pink-it-styles {
+    //-webkit-filter: hue-rotate(90deg);
+    //filter: hue-rotate(90deg);
+}
+
+.pink-it-styles body, .pink-it-styles .container, .pink-it-styles #content {
+    background: url('chrome-extension://__MSG_@@extension_id__/images/bg_128.jpg') repeat var(--main-bg-color);
+}
+
+.pink-it-styles nav {
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+    color: var(--main-body-color);
+}
+
+.pink-it-styles .nav-links .nav-links--link, .pink-it-styles .nav-links .nav-links--link:visited {
+    color: var(--main-body-color);
+}
+
+.pink-it-styles #masthead, .pink-it-styles #primary {
+    background: none;
+}
+
+.pink-it-styles h1, .pink-it-styles h2, .pink-it-styles h3, .pink-it-styles h4, .pink-it-styles h5, .pink-it-styles h6, .pink-it-styles p {
+    color: var(--main-body-color);
+}
+
+.pink-it-styles a, .pink-it-styles a:link, .pink-it-styles a:visited {
+    color: var(--main-link-color);
+}
+
+/* footer */
+.pink-it-styles.footer, .pink-it-styles footer {
+    background-color: var(--footer-bg-color);
+}
